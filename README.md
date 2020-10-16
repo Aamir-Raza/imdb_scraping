@@ -1,6 +1,5 @@
 Module imdb_scraping
 ====================
-Scraping IMDb Credits
 
 Retrieve listing information for the given IMDb crew link
 in the form of a dictionary with the title, role and release year
