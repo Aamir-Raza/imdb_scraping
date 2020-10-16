@@ -34,7 +34,7 @@ def process_page(page_id):
     'tt3065204': ['The Conjuring 2',
                            '2016',
                            '(digital compositor)',
-                           'Visual effects'],
+                           'Visual effects']
     """
 
     user_data = defaultdict(list)
