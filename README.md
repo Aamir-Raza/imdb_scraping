@@ -1,9 +1,9 @@
-Module imdb_scraping
-====================
+IMDb Scraping with BeautifulSoup4 and Requests
+===============================================
 
-Retrieve listing information for the given IMDb crew link
+Retrieve listing information for the given IMDb crew/cast link
 in the form of a dictionary with the title, role and release year
-of each entry.
+of each entry. In case of a series, per ep info is not included.
 
 Example usage: 
 
@@ -28,3 +28,9 @@ returns defaultdict in the format *title id: Name, Year, Info, Category*
                            '2016',
                            '(digital compositor)',
                            'Visual effects']
+
+External Libraries
+-------------------
+*   bs4==0.0.1
+*   requests==2.24.0
+
