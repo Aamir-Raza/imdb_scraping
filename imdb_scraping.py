@@ -25,12 +25,16 @@ def process_page(page_id):
     in the form of a dictionary with the title, role and release year
     of each entry.
 
-    returns defaultdict in the format:
+    returns defaultdict in the format title: Name, Year, Info, Category
 
-    {'tt10055546': ['SuperCool',
-                            '',
-                            '(digital compositor)',
-                            'Visual effects']'}
+    'tt2802850': ['Fargo',
+                           '2017',
+                           '(TV Series) (digital compositor - 1 episode)',
+                           'Visual effects'],
+    'tt3065204': ['The Conjuring 2',
+                           '2016',
+                           '(digital compositor)',
+                           'Visual effects'],
     """
 
     user_data = defaultdict(list)
